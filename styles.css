@@ -34,3 +34,283 @@ font-family: 'poppins';
     border-radius: 50px;
 }
 
+
+@media screen and (min-width:0px) and (max-width:320px) {
+    .home{
+        position: relative;
+    }
+    
+    .home::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 95px;
+    }
+
+    .trainers{
+        position: relative;
+    }
+    
+    .trainers:focus::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 95px;
+    }
+
+    .whyus{
+        position: relative;
+    }
+    
+    .whyus:hover::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 95px;
+    }
+    .contact{
+        position: relative;
+    }
+    
+    .contact:hover::after{
+        content: "";
+        height: 3px;
+        width: 28%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 125px;
+    }
+    
+}
+@media screen and (min-width:321px) and (max-width:376px) {
+    .home{
+        position: relative;
+    }
+    
+    .home::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 120px;
+    }
+
+    .trainers{
+        position: relative;
+    }
+    
+    .trainers:focus::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 120px;
+    }
+
+    .whyus{
+        position: relative;
+    }
+    
+    .whyus:hover::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 120px;
+    }
+    .contact{
+        position: relative;
+    }
+    
+    .contact:hover::after{
+        content: "";
+        height: 3px;
+        width: 28%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 125px;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .home{
+        position: relative;
+    }
+    
+    .home::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 140px;
+    }
+
+    .trainers{
+        position: relative;
+    }
+    
+    .trainers:focus::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 140px;
+    }
+
+    .whyus{
+        position: relative;
+    }
+    
+    .whyus:hover::after{
+        content: "";
+        height: 3px;
+        width: 20%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 140px;
+    }
+    .contact{
+        position: relative;
+    }
+    
+    .contact:hover::after{
+        content: "";
+        height: 3px;
+        width: 28%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 125px;
+    }
+    
+}
+
+@media screen and (min-width:426px) and (max-width:769px) {
+    .home{
+        position: relative;
+    }
+    
+    .home::after{
+        content: "";
+        height: 3px;
+        width: 15%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 290px;
+    }
+
+    .trainers{
+        position: relative;
+    }
+    
+    .trainers:focus::after{
+        content: "";
+        height: 3px;
+        width: 15%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 290px;
+    }
+
+    .whyus{
+        position: relative;
+    }
+    
+    .whyus:hover::after{
+        content: "";
+        height: 3px;
+        width: 15%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 290px;
+    }
+    .contact{
+        position: relative;
+    }
+    
+    .contact:hover::after{
+        content: "";
+        height: 3px;
+        width: 28%;
+        display: block;
+        color: brown;
+        background-color: brown;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        left: 125px;
+    }
+    
+}
+
