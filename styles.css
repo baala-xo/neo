@@ -1,0 +1,36 @@
+*{
+font-family: 'poppins';
+}
+
+.mynav{
+    font-size: 15px;
+}
+
+
+.home , .trainers , .whyus{
+    position:relative;
+}
+.home::after ,.trainers:hover::after {
+    content:"";
+    height: 3px;
+    width:100%;
+    display:block;
+    color:red;
+    background-color: red;
+    position: absolute;
+    top:30px;
+    border-radius: 50px;
+}
+
+.whyus:hover::after {
+    content:"";
+    height: 3px;
+    width:70%;
+    display:block;
+    color:red;
+    background-color: red;
+    position: absolute;
+    top:30px;
+    border-radius: 50px;
+}
+
